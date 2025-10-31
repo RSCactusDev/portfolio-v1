@@ -1,14 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  color-scheme: light dark;
+  color-scheme: light;
+  /* Changed from "light dark" */
 }
 
 * {
   @apply transition-colors duration-200;
 }
 
-/* Keep your tokens if you like */
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
